@@ -5,6 +5,9 @@ def nyc_pigeon_organizer(data)
     #binding.pry
     value.each { |inner_key, names| 
       binding.pry
+      names.each { |name|
+      }
+      }
     }
     final_array
   end
