@@ -6,10 +6,10 @@ def nyc_pigeon_organizer(data)
       names.each { |name|
         if !final_array[name]
           final_array[name] = {}
-      }
+        }
         if !final_array[name][key]
           !final_array[name][key] = {}
-    }
+        }
       }
     final_array[name][key].push(inner_key)
   end
