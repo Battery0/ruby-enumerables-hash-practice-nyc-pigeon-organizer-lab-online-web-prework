@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
       names.each { |name|
         binding.pry
       }
-      }
     }
     final_array
   end
